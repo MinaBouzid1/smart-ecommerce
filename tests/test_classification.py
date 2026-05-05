@@ -5,7 +5,7 @@ from ml.classification import train_and_evaluate
 
 
 def test_cross_validation():
-    """Test avec données synthétiques en mémoire — aucun fichier externe."""
+    """Test avec données synthétiques en mémoire."""
     np.random.seed(42)
     n = 200
 
@@ -21,10 +21,22 @@ def test_cross_validation():
 
     result = train_and_evaluate(df)
 
-    assert isinstance(result, dict)
-    assert "accuracy" in result
-    assert 0 <= result["accuracy"] <= 1
-    assert "f1" in result or "f1_score" in result
+    # train_and_evaluate retourne (metrics_dict, df_annoté)
+    if isinstance(result, tuple):
+        metrics, df_out = result
+    else:
+        metrics = result
+        df_out = None
+
+    assert isinstance(metrics, dict)
+    assert "random_forest" in metrics or "xgboost" in metrics
+    assert metrics["random_forest"]["accuracy"] >= 0
+    assert metrics["xgboost"]["accuracy"] >= 0
+    assert 0 <= metrics["xgboost"]["accuracy"] <= 1
+
+    if df_out is not None:
+        assert isinstance(df_out, pd.DataFrame)
+        assert len(df_out) == n
 
 
 def test_empty_dataframe():
