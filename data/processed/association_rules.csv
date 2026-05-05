@@ -1,0 +1,885 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
+frozenset({'the chubbsies'}),frozenset({'swim'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chubbies sport'}),frozenset({'performance polo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'performance polo'}),frozenset({'chubbies sport'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'swim'}),frozenset({'chubbies sport'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chubbies sport'}),frozenset({'swim'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chubbies sport'}),frozenset({'the chubbsies'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'the chubbsies'}),frozenset({'chubbies sport'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'promotion'}),frozenset({'lace pack'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'lace pack'}),frozenset({'promotion'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'lace pack'}),frozenset({'shoes'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'shoes'}),frozenset({'lace pack'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'lace pack'}),frozenset({'socks'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'socks'}),frozenset({'lace pack'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'lace pack'}),frozenset({'underwear'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'underwear'}),frozenset({'lace pack'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'underwear'}),frozenset({'apparel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'apparel'}),frozenset({'underwear'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'socks'}),frozenset({'apparel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'apparel'}),frozenset({'socks'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'apparel'}),frozenset({'shoes'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'shoes'}),frozenset({'apparel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'belle lip mask & ugl'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'belle lip mask & ugl'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'underwear'}),frozenset({'shoes'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'socks'}),frozenset({'underwear'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'underwear'}),frozenset({'socks'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'swim'}),frozenset({'the chubbsies'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'apparel'}),frozenset({'promotion'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'promotion'}),frozenset({'apparel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'apparel'}),frozenset({'lace pack'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'lace pack'}),frozenset({'apparel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'swim'}),frozenset({'performance polo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'performance polo'}),frozenset({'swim'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'performance polo'}),frozenset({'the chubbsies'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'the chubbsies'}),frozenset({'performance polo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'promotion'}),frozenset({'shoes'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'shoes'}),frozenset({'promotion'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'promotion'}),frozenset({'socks'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'socks'}),frozenset({'promotion'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'promotion'}),frozenset({'underwear'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'underwear'}),frozenset({'promotion'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'shoes'}),frozenset({'socks'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'socks'}),frozenset({'shoes'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'shoes'}),frozenset({'underwear'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'act natural mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'act natural mascara'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome liquid shadow'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'cheek palette'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'cheek & lip set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'chrome crème gel liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek & lip set'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'candy lip oil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bronzer stix'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush stix'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'blush stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'bronzer stix'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'brow boss gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'byob'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss gel'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow boss pencil'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'brow boss pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow gel'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'chrome liquid shadow'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'cleansing duo'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff mascara'}),frozenset({'cloud whip blurring liquid lipstick'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'brow gel'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'byob'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blotted lip'}),frozenset({'blush + ugl set'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'bff liquid liner'}),frozenset({'brow pencil'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'brow pencil'}),frozenset({'bff liquid liner'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'blush + ugl set'}),frozenset({'blotted lip'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'bff mascara'}),0.125,0.125,0.125,1.0,8.0,1.0,0.109375,inf,1.0,1.0,1.0,1.0
+frozenset({'face mist'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek & lip set'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'candy lip oil'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'liquid blush'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek & lip set'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'cheek & lip set'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'candy lip oil'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek & lip set'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip scrub'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'candy lip oil'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'face mist'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mist'}),frozenset({'eye cream'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'liquid blush'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eye cream'}),frozenset({'face mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweaters'}),frozenset({'sweatshirts'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweatshirts'}),frozenset({'sweaters'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweaters'}),frozenset({'swim bottoms'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'swim bottoms'}),frozenset({'sweaters'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweatshirts'}),frozenset({'swim bottoms'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'swim bottoms'}),frozenset({'sweatshirts'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweaters'}),frozenset({'eyewear'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eyewear'}),frozenset({'sweatshirts'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'necklace'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'candy lip oil'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'candy lip oil'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'liquid blush'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'lip mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip scrub'}),frozenset({'eye cream'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip scrub'}),frozenset({'necklace'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eye cream'}),frozenset({'lip scrub'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'eye cream'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eye cream'}),frozenset({'liquid blush'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'eye cream'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eye cream'}),frozenset({'necklace'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eyewear'}),frozenset({'jumpsuits'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'jumpsuits'}),frozenset({'eyewear'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eyewear'}),frozenset({'sweaters'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweatshirts'}),frozenset({'dresses'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'dresses'}),frozenset({'swim bottoms'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'swim bottoms'}),frozenset({'dresses'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mask'}),frozenset({'eye cream'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'eye cream'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'candy lip oil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'candy lip oil'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'sweaters'}),frozenset({'dresses'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eyewear'}),frozenset({'dresses'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'dresses'}),frozenset({'eyewear'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'dresses'}),frozenset({'jumpsuits'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'jumpsuits'}),frozenset({'dresses'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'dresses'}),frozenset({'sweaters'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'dresses'}),frozenset({'sweatshirts'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mist'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek & lip set'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek & lip set'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'cheek & lip set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek & lip set'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'lip scrub'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip scrub'}),frozenset({'liquid blush'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'liquid blush'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mist'}),frozenset({'necklace'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'face mist'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweaters'}),frozenset({'jumpsuits'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'jumpsuits'}),frozenset({'sweaters'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweatshirts'}),frozenset({'jumpsuits'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'jumpsuits'}),frozenset({'sweatshirts'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eye cream'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'swim bottoms'}),frozenset({'jumpsuits'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip scrub'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'liquid blush'}),frozenset({'face mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'chrome crème gel liner'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome crème gel liner'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome crème gel liner'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome crème gel liner'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mask'}),frozenset({'necklace'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'face mist'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mist'}),frozenset({'lip scrub'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip scrub'}),frozenset({'face mist'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mist'}),frozenset({'lip mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mist'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'chrome liquid shadow'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'chrome liquid shadow'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cleansing duo'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mask'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cleansing duo'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'cleansing duo'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'necklace'}),frozenset({'face mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'face mist'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mask'}),frozenset({'liquid blush'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mask'}),frozenset({'lip scrub'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'lip scrub'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'lip mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'sweatshirts'}),frozenset({'eyewear'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip scrub'}),frozenset({'lip mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'lip scrub'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'lip mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'liquid blush'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'necklace'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'cheek palette'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'face mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek palette'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek palette'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek palette'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek palette'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek palette'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'jumpsuits'}),frozenset({'swim bottoms'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'lip mask'}),frozenset({'face mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mask'}),frozenset({'lip mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'chrome crème gel liner'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome crème gel liner'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'chrome crème gel liner'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'face mask'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'face mask'}),frozenset({'face mist'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'swim bottoms'}),frozenset({'eyewear'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eyewear'}),frozenset({'swim bottoms'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'cleansing duo'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'cleansing duo'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'cheek palette'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cheek palette'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'cleansing duo'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'cloud whip blurring liquid lipstick'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'cloud whip blurring liquid lipstick'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip scrub'}),frozenset({'chrome crème gel liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'candy lip oil'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blotted lip'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'necklace'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mist'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blotted lip'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blotted lip'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blotted lip'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff mascara'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bff mascara'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff mascara'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff mascara'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff mascara'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff mascara'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'bff mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff mascara'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blotted lip'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bff liquid liner'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'blotted lip'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush stix'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush stix'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush stix'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush stix'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush + ugl set'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'blush + ugl set'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip scrub'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush + ugl set'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush + ugl set'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush + ugl set'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush + ugl set'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'blush + ugl set'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush + ugl set'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'blotted lip'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'necklace'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff liquid liner'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bags'}),frozenset({'swim bottoms'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'bags'}),frozenset({'sweatshirts'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'sweaters'}),frozenset({'bags'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'bags'}),frozenset({'sweaters'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'jumpsuits'}),frozenset({'bags'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'bags'}),frozenset({'jumpsuits'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'bags'}),frozenset({'eyewear'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'eyewear'}),frozenset({'bags'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'dresses'}),frozenset({'bags'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'bags'}),frozenset({'dresses'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'necklace'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'act natural mascara'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'act natural mascara'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'act natural mascara'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'act natural mascara'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mist'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'act natural mascara'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'act natural mascara'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'act natural mascara'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'act natural mascara'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'sweatshirts'}),frozenset({'bags'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'swim bottoms'}),frozenset({'bags'}),0.25,0.25,0.25,1.0,4.0,1.0,0.1875,inf,1.0,1.0,1.0,1.0
+frozenset({'liquid blush'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bff liquid liner'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff liquid liner'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff liquid liner'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff liquid liner'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'bff liquid liner'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bff liquid liner'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'belle lip mask & ugl'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'belle lip mask & ugl'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush stix'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'blotted lip'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'blush stix'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mask'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow gel'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow gel'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss pencil'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss pencil'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss pencil'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss pencil'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss pencil'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss pencil'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'brow boss pencil'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'byob'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss gel'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'byob'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'brow gel'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'brow gel'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip mask'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow pencil'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow gel'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'brow gel'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'byob'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'byob'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'brow gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow gel'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'brow boss gel'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'eye cream'}),frozenset({'brow boss pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss gel'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bronzer stix'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'byob'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bronzer stix'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'byob'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'liquid blush'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'face mist'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bronzer stix'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bronzer stix'}),frozenset({'lip scrub'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'eye cream'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'bronzer stix'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'byob'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'necklace'}),frozenset({'blush stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'blush stix'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'lip scrub'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'necklace'}),frozenset({'brow pencil'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'liquid blush'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss gel'}),frozenset({'lip mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'brow boss gel'}),frozenset({'face mist'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bronzer stix'}),frozenset({'liquid blush'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'bronzer stix'}),frozenset({'necklace'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'necklace'}),frozenset({'bronzer stix'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss gel'}),frozenset({'eye cream'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mist'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'lip mask'}),frozenset({'byob'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'brow boss gel'}),frozenset({'face mask'}),0.125,0.25,0.125,1.0,4.0,1.0,0.09375,inf,0.8571428571428571,0.5,1.0,0.75
+frozenset({'face mask'}),frozenset({'brow boss gel'}),0.25,0.125,0.125,0.5,4.0,1.0,0.09375,1.75,1.0,0.5,0.42857142857142855,0.75
+frozenset({'swim'}),frozenset({'shorts'}),0.125,0.375,0.125,1.0,2.6666666666666665,1.0,0.078125,inf,0.7142857142857143,0.3333333333333333,1.0,0.6666666666666666
+frozenset({'shorts'}),frozenset({'jumpsuits'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'shorts'}),frozenset({'sweatshirts'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'sweatshirts'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'shorts'}),frozenset({'sweaters'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'jumpsuits'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'swim bottoms'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'shorts'}),frozenset({'bags'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'shorts'}),frozenset({'swim bottoms'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'the chubbsies'}),frozenset({'shorts'}),0.125,0.375,0.125,1.0,2.6666666666666665,1.0,0.078125,inf,0.7142857142857143,0.3333333333333333,1.0,0.6666666666666666
+frozenset({'shorts'}),frozenset({'dresses'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'bags'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'pants'}),frozenset({'bags'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'bags'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'chubbies sport'}),frozenset({'shorts'}),0.125,0.375,0.125,1.0,2.6666666666666665,1.0,0.078125,inf,0.7142857142857143,0.3333333333333333,1.0,0.6666666666666666
+frozenset({'pants'}),frozenset({'outerwear'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'pants'}),frozenset({'jumpsuits'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'jumpsuits'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'eyewear'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'sweaters'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'dresses'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'pants'}),frozenset({'dresses'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'dresses'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'outerwear'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'shorts'}),frozenset({'eyewear'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'eyewear'}),frozenset({'shorts'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'pants'}),frozenset({'eyewear'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'performance polo'}),frozenset({'shorts'}),0.125,0.375,0.125,1.0,2.6666666666666665,1.0,0.078125,inf,0.7142857142857143,0.3333333333333333,1.0,0.6666666666666666
+frozenset({'sweaters'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'pants'}),frozenset({'swim bottoms'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'swim bottoms'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'pants'}),frozenset({'sweatshirts'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'pants'}),frozenset({'sweaters'}),0.375,0.25,0.25,0.6666666666666666,2.6666666666666665,1.0,0.15625,2.2499999999999996,1.0,0.6666666666666666,0.5555555555555555,0.8333333333333333
+frozenset({'sweatshirts'}),frozenset({'pants'}),0.25,0.375,0.25,1.0,2.6666666666666665,1.0,0.15625,inf,0.8333333333333334,0.6666666666666666,1.0,0.8333333333333333
+frozenset({'underwear'}),frozenset({'accessories'}),0.125,0.5,0.125,1.0,2.0,1.0,0.0625,inf,0.5714285714285714,0.25,1.0,0.625
+frozenset({'outerwear'}),frozenset({'accessories'}),0.25,0.5,0.25,1.0,2.0,1.0,0.125,inf,0.6666666666666666,0.5,1.0,0.75
+frozenset({'swim bottoms'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'accessories'}),frozenset({'gift cards'}),0.5,0.25,0.25,0.5,2.0,1.0,0.125,1.5,1.0,0.5,0.3333333333333333,0.75
+frozenset({'lace pack'}),frozenset({'accessories'}),0.125,0.5,0.125,1.0,2.0,1.0,0.0625,inf,0.5714285714285714,0.25,1.0,0.625
+frozenset({'sweaters'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'sweaters'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'socks'}),frozenset({'accessories'}),0.125,0.5,0.125,1.0,2.0,1.0,0.0625,inf,0.5714285714285714,0.25,1.0,0.625
+frozenset({'outerwear'}),frozenset({'sweatshirts'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'swim bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'accessories'}),frozenset({'outerwear'}),0.5,0.25,0.25,0.5,2.0,1.0,0.125,1.5,1.0,0.5,0.3333333333333333,0.75
+frozenset({'promotion'}),frozenset({'accessories'}),0.125,0.5,0.125,1.0,2.0,1.0,0.0625,inf,0.5714285714285714,0.25,1.0,0.625
+frozenset({'shoes'}),frozenset({'accessories'}),0.125,0.5,0.125,1.0,2.0,1.0,0.0625,inf,0.5714285714285714,0.25,1.0,0.625
+frozenset({'sweatshirts'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'bags'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'eyewear'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'dresses'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'dresses'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'dresses'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'necklace'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'necklace'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'liquid blush'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'liquid blush'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'lip scrub'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'lip scrub'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'lip mask'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'lip mask'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'face mist'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'face mist'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'face mask'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'face mask'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'eye cream'}),frozenset({'bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bottoms'}),frozenset({'eye cream'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'dresses'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'accessories'}),0.25,0.5,0.25,1.0,2.0,1.0,0.125,inf,0.6666666666666666,0.5,1.0,0.75
+frozenset({'gift cards'}),frozenset({'eyewear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'sweaters'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bags'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'bags'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'bags'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'jumpsuits'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'jumpsuits'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'swim bottoms'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'swim bottoms'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'sweatshirts'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'sweatshirts'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'sweaters'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'jumpsuits'}),frozenset({'gift cards'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'gift cards'}),frozenset({'jumpsuits'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'outerwear'}),frozenset({'eyewear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'eyewear'}),frozenset({'outerwear'}),0.25,0.25,0.125,0.5,2.0,1.0,0.0625,1.5,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.5
+frozenset({'apparel'}),frozenset({'accessories'}),0.125,0.5,0.125,1.0,2.0,1.0,0.0625,inf,0.5714285714285714,0.25,1.0,0.625
+frozenset({'shorts'}),frozenset({'pants'}),0.375,0.375,0.25,0.6666666666666666,1.7777777777777777,1.0,0.109375,1.8749999999999998,0.7,0.5,0.4666666666666666,0.6666666666666666
+frozenset({'pants'}),frozenset({'shorts'}),0.375,0.375,0.25,0.6666666666666666,1.7777777777777777,1.0,0.109375,1.8749999999999998,0.7,0.5,0.4666666666666666,0.6666666666666666
+frozenset({'gift cards'}),frozenset({'shorts'}),0.25,0.375,0.125,0.5,1.3333333333333333,1.0,0.03125,1.25,0.3333333333333333,0.25,0.2,0.41666666666666663
+frozenset({'outerwear'}),frozenset({'shorts'}),0.25,0.375,0.125,0.5,1.3333333333333333,1.0,0.03125,1.25,0.3333333333333333,0.25,0.2,0.41666666666666663
+frozenset({'gift cards'}),frozenset({'pants'}),0.25,0.375,0.125,0.5,1.3333333333333333,1.0,0.03125,1.25,0.3333333333333333,0.25,0.2,0.41666666666666663
+frozenset({'bottoms'}),frozenset({'pants'}),0.25,0.375,0.125,0.5,1.3333333333333333,1.0,0.03125,1.25,0.3333333333333333,0.25,0.2,0.41666666666666663
+frozenset({'pants'}),frozenset({'accessories'}),0.375,0.5,0.25,0.6666666666666666,1.3333333333333333,1.0,0.0625,1.4999999999999998,0.4,0.4,0.33333333333333326,0.5833333333333333
+frozenset({'accessories'}),frozenset({'pants'}),0.5,0.375,0.25,0.5,1.3333333333333333,1.0,0.0625,1.25,0.5,0.4,0.2,0.5833333333333333

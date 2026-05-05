@@ -1,0 +1,291 @@
+/* ============================================================
+   SMART ECOMMERCE INTELLIGENCE — Premium Dark Theme
+   Fonts: Syne + DM Mono + Outfit
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Outfit:wght@300;400;500;600&display=swap');
+
+/* ── Variables ─────────────────────────────────────────── */
+:root {
+  --bg:       #07090f;
+  --bg2:      #0c1019;
+  --bg3:      #111827;
+  --s1:       #131c2e;
+  --s2:       #1a2540;
+  --s3:       #1f2d45;
+  --cyan:     #00d4ff;
+  --cyan2:    #0099cc;
+  --violet:   #8b5cf6;
+  --violet2:  #a78bfa;
+  --green:    #10b981;
+  --green2:   #34d399;
+  --amber:    #f59e0b;
+  --red:      #ef4444;
+  --text:     #eef2f8;
+  --text2:    #7a90b0;
+  --text3:    #3d5070;
+  --border:   rgba(0,212,255,0.07);
+  --border2:  rgba(0,212,255,0.16);
+  --r:        12px;
+  --r2:       8px;
+}
+
+/* ── Reset & Base ──────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, [class*="css"] {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+/* ── App background ────────────────────────────────────── */
+.stApp {
+  background-color: var(--bg) !important;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 80% -10%, rgba(139,92,246,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 10% 80%, rgba(0,212,255,0.04) 0%, transparent 55%),
+    linear-gradient(rgba(0,212,255,0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,0.018) 1px, transparent 1px) !important;
+  background-size: 100% 100%, 100% 100%, 52px 52px, 52px 52px !important;
+}
+
+/* ── Hide default Streamlit chrome ─────────────────────── */
+#MainMenu, footer, header { visibility: hidden !important; }
+[data-testid="stToolbar"]  { display: none !important; }
+[data-testid="stDecoration"]{ display: none !important; }
+
+/* ── Sidebar ───────────────────────────────────────────── */
+[data-testid="stSidebar"] {
+  background: var(--bg2) !important;
+  border-right: 1px solid var(--border) !important;
+}
+[data-testid="stSidebar"] [data-testid="stVerticalBlock"] {
+  padding-top: 0 !important;
+  gap: 0 !important;
+}
+[data-testid="stSidebar"] .stRadio > label { display: none !important; }
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label {
+  display: flex !important;
+  align-items: center !important;
+  padding: 9px 14px !important;
+  border-radius: var(--r2) !important;
+  cursor: pointer !important;
+  font-size: 12.5px !important;
+  color: var(--text2) !important;
+  font-family: 'Outfit', sans-serif !important;
+  transition: all 0.18s !important;
+  border: 1px solid transparent !important;
+  margin: 0 4px !important;
+}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:hover {
+  background: var(--s1) !important;
+  color: var(--text) !important;
+}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label[data-baseweb="radio"]:has(input:checked),
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:has(input:checked) {
+  background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(139,92,246,0.07)) !important;
+  color: var(--cyan) !important;
+  border-color: rgba(0,212,255,0.18) !important;
+}
+[data-testid="stSidebar"] input[type="radio"] { display: none !important; }
+
+/* Sidebar selectbox & slider */
+[data-testid="stSidebar"] [data-testid="stSelectbox"] > div > div {
+  background: var(--s1) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r2) !important;
+  color: var(--text) !important;
+  font-size: 12px !important;
+}
+[data-testid="stSidebar"] label {
+  color: var(--text3) !important;
+  font-family: 'DM Mono', monospace !important;
+  font-size: 9px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.14em !important;
+}
+
+/* ── Metrics ───────────────────────────────────────────── */
+[data-testid="metric-container"] {
+  background: var(--s1) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r) !important;
+  padding: 18px 20px 14px !important;
+  transition: border-color 0.25s, transform 0.2s !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+[data-testid="metric-container"]:hover {
+  border-color: var(--border2) !important;
+  transform: translateY(-2px) !important;
+}
+[data-testid="stMetricLabel"] > div {
+  font-family: 'DM Mono', monospace !important;
+  font-size: 9px !important;
+  color: var(--text3) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.16em !important;
+}
+[data-testid="stMetricValue"] > div {
+  font-family: 'Syne', sans-serif !important;
+  font-size: 26px !important;
+  font-weight: 800 !important;
+  color: var(--cyan) !important;
+}
+[data-testid="stMetricDelta"] > div {
+  font-family: 'DM Mono', monospace !important;
+  font-size: 10px !important;
+}
+
+/* ── Dataframe ─────────────────────────────────────────── */
+[data-testid="stDataFrame"] {
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r) !important;
+  overflow: hidden !important;
+}
+.dvn-scroller { scrollbar-width: thin !important; scrollbar-color: var(--s2) transparent !important; }
+.stDataFrame thead th {
+  background: var(--s2) !important;
+  color: var(--cyan) !important;
+  font-family: 'DM Mono', monospace !important;
+  font-size: 9px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  border-bottom: 1px solid var(--border2) !important;
+}
+.stDataFrame tbody td {
+  font-size: 11px !important;
+  color: var(--text2) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.03) !important;
+}
+.stDataFrame tbody tr:hover td { background: var(--s1) !important; }
+
+/* ── Buttons ───────────────────────────────────────────── */
+[data-testid="stDownloadButton"] button,
+.stButton > button {
+  background: linear-gradient(135deg, rgba(0,212,255,0.15), rgba(139,92,246,0.1)) !important;
+  color: var(--cyan) !important;
+  border: 1px solid var(--border2) !important;
+  border-radius: var(--r2) !important;
+  font-family: 'DM Mono', monospace !important;
+  font-size: 10px !important;
+  letter-spacing: 0.08em !important;
+  padding: 8px 18px !important;
+  transition: all 0.2s !important;
+}
+[data-testid="stDownloadButton"] button:hover,
+.stButton > button:hover {
+  background: linear-gradient(135deg, rgba(0,212,255,0.25), rgba(139,92,246,0.18)) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 20px rgba(0,212,255,0.15) !important;
+}
+
+/* ── Text input & chat ─────────────────────────────────── */
+[data-testid="stTextInput"] input,
+[data-testid="stChatInput"] textarea {
+  background: var(--s1) !important;
+  border: 1px solid var(--border2) !important;
+  border-radius: var(--r2) !important;
+  color: var(--text) !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 13px !important;
+}
+[data-testid="stTextInput"] input:focus,
+[data-testid="stChatInput"] textarea:focus {
+  border-color: var(--cyan) !important;
+  box-shadow: 0 0 0 2px rgba(0,212,255,0.1) !important;
+  outline: none !important;
+}
+
+/* ── Chat messages ─────────────────────────────────────── */
+[data-testid="stChatMessage"] {
+  background: var(--s1) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r) !important;
+  padding: 14px 18px !important;
+  margin-bottom: 10px !important;
+}
+[data-testid="stChatMessage"][data-testid*="user"] {
+  background: linear-gradient(135deg, rgba(0,212,255,0.08), rgba(139,92,246,0.05)) !important;
+  border-color: rgba(0,212,255,0.14) !important;
+}
+
+/* ── Selectbox ─────────────────────────────────────────── */
+[data-testid="stSelectbox"] > div > div {
+  background: var(--s1) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r2) !important;
+  color: var(--text) !important;
+  font-size: 12px !important;
+}
+
+/* ── Slider ────────────────────────────────────────────── */
+[data-testid="stSlider"] [data-baseweb="slider"] div[role="slider"] {
+  background: var(--cyan) !important;
+  border-color: var(--cyan) !important;
+}
+
+/* ── Checkbox ──────────────────────────────────────────── */
+[data-testid="stCheckbox"] label {
+  color: var(--text2) !important;
+  font-size: 12px !important;
+  font-family: 'Outfit', sans-serif !important;
+}
+
+/* ── Plotly ────────────────────────────────────────────── */
+.js-plotly-plot .plotly, .plot-container { background: transparent !important; }
+
+/* ── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--s2); border-radius: 2px; }
+
+/* ── Divider ───────────────────────────────────────────── */
+hr { border-color: var(--border) !important; margin: 16px 0 !important; }
+
+/* ── Expander ──────────────────────────────────────────── */
+[data-testid="stExpander"] {
+  background: var(--s1) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r) !important;
+}
+[data-testid="stExpander"] summary {
+  color: var(--text2) !important;
+  font-size: 12px !important;
+}
+
+/* ── Info / Warning boxes ──────────────────────────────── */
+[data-testid="stAlert"] {
+  background: var(--s1) !important;
+  border-radius: var(--r2) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text2) !important;
+  font-size: 12px !important;
+}
+
+/* ── Tabs ──────────────────────────────────────────────── */
+[data-testid="stTabs"] [role="tablist"] {
+  border-bottom: 1px solid var(--border) !important;
+  gap: 0 !important;
+}
+[data-testid="stTabs"] [role="tab"] {
+  font-family: 'DM Mono', monospace !important;
+  font-size: 10px !important;
+  color: var(--text3) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  padding: 8px 16px !important;
+  border-bottom: 2px solid transparent !important;
+  transition: all 0.2s !important;
+}
+[data-testid="stTabs"] [role="tab"][aria-selected="true"] {
+  color: var(--cyan) !important;
+  border-bottom-color: var(--cyan) !important;
+}
+
+/* ── Column containers ─────────────────────────────────── */
+[data-testid="column"] { padding: 0 6px !important; }
+[data-testid="stVerticalBlock"] { gap: 14px !important; }

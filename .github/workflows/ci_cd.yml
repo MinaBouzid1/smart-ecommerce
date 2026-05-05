@@ -1,0 +1,135 @@
+name: Smart eCommerce CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_PREFIX: ${{ github.repository_owner }}/smart-ecommerce
+
+jobs:
+
+  # ══════════════════════════════════════════════════════════
+  #  JOB 1 — Tests automatiques
+  # ══════════════════════════════════════════════════════════
+  test:
+    name: Tests unitaires
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov
+
+      - name: Lancer les tests
+        run: |
+          pytest tests/ -v --cov=ml --cov=agents --cov=utils \
+                 --cov-report=term-missing \
+                 --cov-fail-under=70
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: htmlcov/
+
+  # ══════════════════════════════════════════════════════════
+  #  JOB 2 — Build & Push Docker images
+  # ══════════════════════════════════════════════════════════
+  build:
+    name: Build Docker images
+    runs-on: ubuntu-latest
+    needs: test               # seulement si les tests passent
+    if: github.ref == 'refs/heads/main'
+
+    permissions:
+      contents: read
+      packages: write
+
+    strategy:
+      matrix:
+        service: [scraper, ml, dashboard]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Login GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build et Push image (${{ matrix.service }})
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          dockerfile: docker/${{ matrix.service }}/Dockerfile
+          push: true
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.IMAGE_PREFIX }}-${{ matrix.service }}:latest
+            ${{ env.REGISTRY }}/${{ env.IMAGE_PREFIX }}-${{ matrix.service }}:${{ github.sha }}
+
+  # ══════════════════════════════════════════════════════════
+  #  JOB 3 — Déploiement Kubeflow Pipeline
+  # ══════════════════════════════════════════════════════════
+  deploy:
+    name: Deploy Kubeflow Pipeline
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Installer kfp SDK
+        run: pip install kfp==2.7.0
+
+      - name: Compiler le pipeline
+        run: python pipeline/pipeline.py
+
+      - name: Upload pipeline YAML
+        uses: actions/upload-artifact@v4
+        with:
+          name: kubeflow-pipeline
+          path: pipeline/smart_ecommerce_pipeline.yaml
+      
+
+      # Décommente et configure si tu as un cluster Kubeflow
+      # - name: Déployer sur Kubeflow
+      #   run: |
+      #     pip install kfp-server-api
+      #     python -c "
+      #     import kfp
+      #     client = kfp.Client(host='${{ secrets.KUBEFLOW_HOST }}')
+      #     client.create_run_from_pipeline_package(
+      #         'pipeline/smart_ecommerce_pipeline.yaml',
+      #         arguments={'k': 20}
+      #     )
+      #     "
+
+      - name: Generate extended dataset and test ML
+  run: |
+    python data/generate_extended_data.py
+    python -m pytest tests/test_classification.py -v

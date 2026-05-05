@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+
+  # ── Scraping ──────────────────────────────────────────────
+  scraper:
+    build:
+      context: .
+      dockerfile: docker/scraper/Dockerfile
+    container_name: ecommerce_scraper
+    volumes:
+      - ./data:/app/data        # partage les données avec les autres services
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python main.py --mode scraping
+
+  # ── ML Pipeline ───────────────────────────────────────────
+  ml_pipeline:
+    build:
+      context: .
+      dockerfile: docker/ml/Dockerfile
+    container_name: ecommerce_ml
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - scraper               # attend que scraper soit fini
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python -m ml.pipeline
+
+  # ── Dashboard ─────────────────────────────────────────────
+  dashboard:
+    build:
+      context: .
+      dockerfile: docker/dashboard/Dockerfile
+    container_name: ecommerce_dashboard
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - ml_pipeline
+    ports:
+      - "8501:8501"           # http://localhost:8501
+    command: streamlit run dashboard/app.py --server.port 8501
+
+volumes:
+  data:

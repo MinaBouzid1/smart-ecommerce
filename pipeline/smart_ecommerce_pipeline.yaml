@@ -1,0 +1,398 @@
+# PIPELINE DEFINITION
+# Name: smart-ecommerce-pipeline
+# Description: Scraping → Preprocessing → ML → Top-K products
+# Inputs:
+#    k: int [Default: 20.0]
+#    max_pages: int [Default: 5.0]
+#    shopify_urls: list [Default: ['https://allbirds.com', 'https://gymshark.com']]
+components:
+  comp-ml-component:
+    executorLabel: exec-ml-component
+    inputDefinitions:
+      artifacts:
+        input_csv:
+          artifactType:
+            schemaTitle: system.Dataset
+            schemaVersion: 0.0.1
+      parameters:
+        k:
+          defaultValue: 20.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+    outputDefinitions:
+      artifacts:
+        metrics_out:
+          artifactType:
+            schemaTitle: system.Metrics
+            schemaVersion: 0.0.1
+        output_csv:
+          artifactType:
+            schemaTitle: system.Dataset
+            schemaVersion: 0.0.1
+        top_k_csv:
+          artifactType:
+            schemaTitle: system.Dataset
+            schemaVersion: 0.0.1
+      parameters:
+        accuracy:
+          parameterType: NUMBER_DOUBLE
+        f1_score:
+          parameterType: NUMBER_DOUBLE
+  comp-preprocessing-component:
+    executorLabel: exec-preprocessing-component
+    inputDefinitions:
+      artifacts:
+        input_csv:
+          artifactType:
+            schemaTitle: system.Dataset
+            schemaVersion: 0.0.1
+    outputDefinitions:
+      artifacts:
+        output_csv:
+          artifactType:
+            schemaTitle: system.Dataset
+            schemaVersion: 0.0.1
+      parameters:
+        nb_features:
+          parameterType: NUMBER_INTEGER
+  comp-scraping-component:
+    executorLabel: exec-scraping-component
+    inputDefinitions:
+      parameters:
+        max_pages:
+          defaultValue: 5.0
+          isOptional: true
+          parameterType: NUMBER_INTEGER
+        shopify_urls:
+          parameterType: LIST
+    outputDefinitions:
+      artifacts:
+        output_csv:
+          artifactType:
+            schemaTitle: system.Dataset
+            schemaVersion: 0.0.1
+      parameters:
+        nb_products:
+          parameterType: NUMBER_INTEGER
+deploymentSpec:
+  executors:
+    exec-ml-component:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - ml_component
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'pandas==2.2.0'\
+          \ 'scikit-learn==1.4.0' 'xgboost==2.0.3' 'numpy==1.26.0' 'mlxtend==0.23.1'\
+          \  &&  python3 -m pip install --quiet --no-warn-script-location 'kfp==2.16.1'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef ml_component(\n    input_csv:   Input[Dataset],\n    output_csv:\
+          \  Output[Dataset],\n    top_k_csv:   Output[Dataset],\n    metrics_out:\
+          \ Output[Metrics],\n    k: int = 20,\n) -> NamedTuple(\"Outputs\", [(\"\
+          accuracy\", float), (\"f1_score\", float)]):\n    \"\"\"KMeans + XGBoost\
+          \ + scoring composite \u2192 Top-K produits.\"\"\"\n    import pandas as\
+          \ pd\n    import numpy as np\n    from sklearn.cluster import KMeans\n \
+          \   from sklearn.model_selection import train_test_split\n    from sklearn.ensemble\
+          \ import RandomForestClassifier\n    from sklearn.metrics import accuracy_score,\
+          \ f1_score\n    from xgboost import XGBClassifier\n    from collections\
+          \ import namedtuple\n\n    df = pd.read_csv(input_csv.path)\n    print(f\"\
+          [ML] {len(df)} produits en entr\xE9e\")\n\n    CLUSTER_FEATURES = [\n  \
+          \      \"prix_norm\", \"rating_norm\", \"nb_reviews_norm\",\n        \"\
+          stock_norm\", \"remise_pct_norm\", \"ratio_qualite_prix_norm\"\n    ]\n\
+          \    CLASS_FEATURES = [\n        \"prix\", \"remise_pct\", \"stock\", \"\
+          nb_images\",\n        \"nb_variants\", \"en_promo\", \"categorie_enc\",\
+          \ \"source_enc\"\n    ]\n\n    # Colonnes manquantes \u2192 0\n    for col\
+          \ in CLUSTER_FEATURES + CLASS_FEATURES:\n        if col not in df.columns:\n\
+          \            df[col] = 0\n\n    # \u2500\u2500 KMeans \u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\n    X_cl = df[CLUSTER_FEATURES].fillna(0).values\n    km   = KMeans(n_clusters=4,\
+          \ random_state=42, n_init=10)\n    df[\"cluster\"] = km.fit_predict(X_cl)\n\
+          \n    # \u2500\u2500 Cible par quantile \u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    score\
+          \ = pd.Series(np.zeros(len(df)), index=df.index)\n    if df[\"prix\"].sum()\
+          \ > 0:\n        px = df[\"prix\"].clip(lower=0)\n        score += (1 - (px\
+          \ - px.min()) / (px.max() - px.min() + 1e-9)) * 40\n    if df[\"remise_pct\"\
+          ].sum() > 0:\n        r = df[\"remise_pct\"].fillna(0)\n        score +=\
+          \ (r / (r.max() + 1e-9)) * 30\n    if df[\"stock\"].sum() > 0:\n       \
+          \ st = df[\"stock\"].fillna(0)\n        score += (st / (st.max() + 1e-9))\
+          \ * 30\n    if score.std() < 1e-6:\n        np.random.seed(42)\n       \
+          \ score += np.random.rand(len(score)) * 10\n\n    df[\"top_produit\"] =\
+          \ (score >= score.quantile(0.70)).astype(int)\n\n    # \u2500\u2500 XGBoost\
+          \ \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\n    X = df[CLASS_FEATURES].fillna(0).astype(float)\n\
+          \    y = df[\"top_produit\"]\n    acc, f1 = 0.0, 0.0\n\n    if y.nunique()\
+          \ >= 2:\n        X_train, X_test, y_train, y_test = train_test_split(\n\
+          \            X, y, test_size=0.2, random_state=42, stratify=y\n        )\n\
+          \        n0, n1 = (y == 0).sum(), (y == 1).sum()\n        xgb = XGBClassifier(\n\
+          \            n_estimators=200, max_depth=4, learning_rate=0.05,\n      \
+          \      scale_pos_weight=n0 / (n1 + 1e-9),\n            random_state=42,\
+          \ eval_metric=\"logloss\", verbosity=0\n        )\n        xgb.fit(X_train,\
+          \ y_train,\n                eval_set=[(X_test, y_test)], verbose=False)\n\
+          \n        y_pred = xgb.predict(X_test)\n        acc = float(accuracy_score(y_test,\
+          \ y_pred))\n        f1  = float(f1_score(y_test, y_pred, average=\"weighted\"\
+          , zero_division=0))\n\n        df[\"proba_top\"] = xgb.predict_proba(X)[:,\
+          \ 1]\n        print(f\"[ML] XGBoost \u2192 Accuracy={acc:.4f} | F1={f1:.4f}\"\
+          )\n    else:\n        df[\"proba_top\"] = 0.5\n\n    # \u2500\u2500 Score\
+          \ composite \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    def safe_norm(s):\n\
+          \        mn, mx = s.min(), s.max()\n        return (s - mn) / (mx - mn +\
+          \ 1e-9)\n\n    df[\"score_composite\"] = (\n        safe_norm(df[\"proba_top\"\
+          ])    * 40 +\n        safe_norm(1 / (df[\"prix\"] + 1)) * 30 +\n       \
+          \ safe_norm(df[\"remise_pct\"].fillna(0)) * 20 +\n        safe_norm(df[\"\
+          stock\"].fillna(0)) * 10\n    ).round(2)\n\n    df[\"rang\"] = df[\"score_composite\"\
+          ].rank(ascending=False, method=\"min\").astype(int)\n\n    # \u2500\u2500\
+          \ Kubeflow Metrics \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    metrics_out.log_metric(\"\
+          accuracy\", acc)\n    metrics_out.log_metric(\"f1_score\", f1)\n    metrics_out.log_metric(\"\
+          nb_products\", len(df))\n    metrics_out.log_metric(\"nb_top_products\"\
+          , int(df[\"top_produit\"].sum()))\n\n    # \u2500\u2500 Sauvegarde \u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
+          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   \
+          \ df.to_csv(output_csv.path, index=False)\n\n    top_k = df.nlargest(k,\
+          \ \"score_composite\")\n    top_k.to_csv(top_k_csv.path, index=False)\n\n\
+          \    print(f\"[ML] Enrichi sauvegard\xE9 \u2192 {output_csv.path}\")\n \
+          \   print(f\"[ML] Top-{k} sauvegard\xE9 \u2192 {top_k_csv.path}\")\n\n \
+          \   Outputs = namedtuple(\"Outputs\", [\"accuracy\", \"f1_score\"])\n  \
+          \  return Outputs(accuracy=acc, f1_score=f1)\n\n"
+        image: python:3.10-slim
+        resources:
+          cpuLimit: 1.0
+          memoryLimit: 1.073741824
+          resourceCpuLimit: 1000m
+          resourceMemoryLimit: 1Gi
+    exec-preprocessing-component:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - preprocessing_component
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'pandas==2.2.0'\
+          \ 'scikit-learn==1.4.0' 'numpy==1.26.0'  &&  python3 -m pip install --quiet\
+          \ --no-warn-script-location 'kfp==2.16.1' '--no-deps' 'typing-extensions>=3.7.4,<5;\
+          \ python_version<\"3.9\"' && \"$0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef preprocessing_component(\n    input_csv:  Input[Dataset],\n \
+          \   output_csv: Output[Dataset],\n) -> NamedTuple(\"Outputs\", [(\"nb_features\"\
+          , int)]):\n    \"\"\"Nettoie, encode et cr\xE9e les features ML.\"\"\"\n\
+          \    import pandas as pd\n    import numpy as np\n    from sklearn.preprocessing\
+          \ import MinMaxScaler, LabelEncoder\n    from sklearn.impute import SimpleImputer\n\
+          \    from collections import namedtuple\n\n    df = pd.read_csv(input_csv.path)\n\
+          \    print(f\"[Preprocessing] {len(df)} produits en entr\xE9e\")\n\n   \
+          \ # Features m\xE9tier\n    df[\"ratio_qualite_prix\"] = np.where(\n   \
+          \     df[\"prix\"] > 0,\n        df[\"rating\"] / np.log1p(df[\"prix\"]),\n\
+          \        0\n    )\n    df[\"score_popularite\"] = (\n        df[\"rating\"\
+          ] * 0.4 +\n        np.log1p(df[\"nb_reviews\"]) * 0.4 +\n        df[\"disponible\"\
+          ].astype(int) * 0.2\n    )\n    df[\"en_promo\"] = (df[\"remise_pct\"] >\
+          \ 0).astype(int)\n\n    # Encodage\n    le = LabelEncoder()\n    df[\"categorie_enc\"\
+          ] = le.fit_transform(df[\"categorie\"].fillna(\"inconnu\"))\n    df[\"source_enc\"\
+          ]    = le.fit_transform(df[\"source\"].fillna(\"inconnu\"))\n\n    # Imputation\n\
+          \    numeric = [\"prix\", \"remise_pct\", \"rating\", \"nb_reviews\",\n\
+          \               \"stock\", \"ratio_qualite_prix\", \"score_popularite\"\
+          ]\n    imp = SimpleImputer(strategy=\"median\")\n    df[numeric] = imp.fit_transform(df[numeric])\n\
+          \n    # Normalisation\n    scaler  = MinMaxScaler()\n    to_norm = [\"prix\"\
+          , \"rating\", \"nb_reviews\", \"stock\",\n               \"remise_pct\"\
+          , \"ratio_qualite_prix\"]\n    scaled  = scaler.fit_transform(df[to_norm])\n\
+          \    for i, col in enumerate(to_norm):\n        df[f\"{col}_norm\"] = scaled[:,\
+          \ i]\n\n    df.to_csv(output_csv.path, index=False)\n    print(f\"[Preprocessing]\
+          \ {len(df.columns)} features \u2192 {output_csv.path}\")\n\n    Outputs\
+          \ = namedtuple(\"Outputs\", [\"nb_features\"])\n    return Outputs(nb_features=len(df.columns))\n\
+          \n"
+        image: python:3.10-slim
+    exec-scraping-component:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - scraping_component
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'requests==2.31.0'\
+          \ 'beautifulsoup4==4.12.2' 'pandas==2.2.0' 'fake-useragent==1.4.0'  && \
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.16.1'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef scraping_component(\n    shopify_urls: list,\n    output_csv:\
+          \ Output[Dataset],\n    max_pages: int = 5,\n) -> NamedTuple(\"Outputs\"\
+          , [(\"nb_products\", int)]):\n    \"\"\"Scrape les shops Shopify et sauvegarde\
+          \ les donn\xE9es brutes.\"\"\"\n    import requests\n    import pandas as\
+          \ pd\n    import time\n    import logging\n    from collections import namedtuple\n\
+          \n    logging.basicConfig(level=logging.INFO)\n    logger = logging.getLogger(\"\
+          ScrapingComponent\")\n\n    all_products = []\n\n    for shop_url in shopify_urls:\n\
+          \        shop_url = shop_url.rstrip(\"/\")\n        logger.info(f\"Scraping\
+          \ : {shop_url}\")\n\n        for page in range(1, max_pages + 1):\n    \
+          \        try:\n                resp = requests.get(\n                  \
+          \  f\"{shop_url}/products.json\",\n                    params={\"limit\"\
+          : 250, \"page\": page},\n                    headers={\"User-Agent\": \"\
+          Mozilla/5.0\"},\n                    timeout=15\n                )\n   \
+          \             resp.raise_for_status()\n                products = resp.json().get(\"\
+          products\", [])\n\n                if not products:\n                  \
+          \  break\n\n                for p in products:\n                    variant\
+          \ = p.get(\"variants\", [{}])[0]\n                    prix = float(variant.get(\"\
+          price\", 0) or 0)\n                    prix_compare = float(variant.get(\"\
+          compare_at_price\") or 0)\n                    remise = round((1 - prix\
+          \ / prix_compare) * 100, 1) \\\n                             if prix_compare\
+          \ > prix > 0 else 0.0\n\n                    all_products.append({\n   \
+          \                     \"source\":        \"shopify\",\n                \
+          \        \"shop_url\":      shop_url,\n                        \"product_id\"\
+          :    str(p.get(\"id\", \"\")),\n                        \"nom\":       \
+          \    p.get(\"title\", \"\").strip(),\n                        \"categorie\"\
+          :     p.get(\"product_type\", \"\").strip(),\n                        \"\
+          marque\":        p.get(\"vendor\", \"\").strip(),\n                    \
+          \    \"tags\":          \", \".join(p.get(\"tags\", [])),\n            \
+          \            \"prix\":          prix,\n                        \"prix_compare\"\
+          :  prix_compare,\n                        \"remise_pct\":    remise,\n \
+          \                       \"disponible\":    variant.get(\"available\", False),\n\
+          \                        \"stock\":         variant.get(\"inventory_quantity\"\
+          , 0) or 0,\n                        \"nb_images\":     len(p.get(\"images\"\
+          , [])),\n                        \"nb_variants\":   len(p.get(\"variants\"\
+          , [])),\n                        \"rating\":        0.0,\n             \
+          \           \"nb_reviews\":    0,\n                        \"date_creation\"\
+          : p.get(\"created_at\", \"\"),\n                    })\n\n             \
+          \   time.sleep(1)\n\n            except Exception as e:\n              \
+          \  logger.warning(f\"Erreur page {page} sur {shop_url}: {e}\")\n       \
+          \         break\n\n    df = pd.DataFrame(all_products)\n\n    # D\xE9duplication\n\
+          \    if not df.empty:\n        df = df.drop_duplicates(subset=[\"shop_url\"\
+          , \"product_id\"])\n        df[\"uid\"] = df[\"source\"] + \"_\" + df[\"\
+          product_id\"].astype(str)\n\n    df.to_csv(output_csv.path, index=False)\n\
+          \    logger.info(f\"Sauvegard\xE9 : {len(df)} produits \u2192 {output_csv.path}\"\
+          )\n\n    Outputs = namedtuple(\"Outputs\", [\"nb_products\"])\n    return\
+          \ Outputs(nb_products=len(df))\n\n"
+        image: python:3.10-slim
+        resources:
+          cpuLimit: 0.5
+          memoryLimit: 0.536870912
+          resourceCpuLimit: 500m
+          resourceMemoryLimit: 512Mi
+pipelineInfo:
+  description: "Scraping \u2192 Preprocessing \u2192 ML \u2192 Top-K products"
+  name: smart-ecommerce-pipeline
+root:
+  dag:
+    tasks:
+      ml-component:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-ml-component
+        dependentTasks:
+        - preprocessing-component
+        inputs:
+          artifacts:
+            input_csv:
+              taskOutputArtifact:
+                outputArtifactKey: output_csv
+                producerTask: preprocessing-component
+          parameters:
+            k:
+              componentInputParameter: k
+        taskInfo:
+          name: ML Training + Scoring
+      preprocessing-component:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-preprocessing-component
+        dependentTasks:
+        - scraping-component
+        inputs:
+          artifacts:
+            input_csv:
+              taskOutputArtifact:
+                outputArtifactKey: output_csv
+                producerTask: scraping-component
+        taskInfo:
+          name: Preprocessing ML
+      scraping-component:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-scraping-component
+        inputs:
+          parameters:
+            max_pages:
+              componentInputParameter: max_pages
+            shopify_urls:
+              componentInputParameter: shopify_urls
+        taskInfo:
+          name: Scraping A2A
+  inputDefinitions:
+    parameters:
+      k:
+        defaultValue: 20.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      max_pages:
+        defaultValue: 5.0
+        isOptional: true
+        parameterType: NUMBER_INTEGER
+      shopify_urls:
+        defaultValue:
+        - https://allbirds.com
+        - https://gymshark.com
+        isOptional: true
+        parameterType: LIST
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.16.1

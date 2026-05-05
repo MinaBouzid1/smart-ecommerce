@@ -1,0 +1,76 @@
+# Configuration MCP — Smart eCommerce Intelligence
+# Référence : https://modelcontextprotocol.io/specification/2025-03-26
+
+mcp:
+  version: "2025-03-26"
+  host: "smart-ecommerce-dashboard"
+
+servers:
+
+  scraping-server:
+    description: "Scraping Shopify via API JSON publique"
+    approved: true
+    permissions:
+      - read_data
+      - call_external
+      - write_data
+    tools:
+      - scrape_shopify
+      - get_raw_data
+      - get_scraping_status
+    data_sources:
+      - "https://shopify.com/products.json"
+      - "data/raw/products.csv"
+    rate_limit:
+      requests_per_minute: 30
+      delay_between_requests: 1.5
+
+  ml-server:
+    description: "Pipeline ML : clustering, classification, scoring"
+    approved: true
+    permissions:
+      - read_data
+      - run_ml
+      - write_data
+      - export_data
+    tools:
+      - run_pipeline
+      - get_top_k
+      - get_segments
+      - get_metrics
+    data_sources:
+      - "data/raw/products.csv"
+      - "data/processed/"
+
+  llm-server:
+    description: "Intelligence LLM via Groq (llama-3.1-8b-instant)"
+    approved: true
+    permissions:
+      - read_data
+      - call_llm
+      - write_data
+      - export_data
+    tools:
+      - generate_report
+      - summarize_products
+      - generate_marketing
+      - chat
+    data_sources:
+      - "data/processed/products_enriched.csv"
+    llm:
+      provider: "groq"
+      model: "llama-3.1-8b-instant"
+      max_tokens: 1000
+
+audit:
+  enabled: true
+  log_file: "data/logs/mcp_audit.jsonl"
+  log_level: "INFO"
+  log_denied: true
+
+principles:
+  - "Moindre privilège : chaque serveur n'accède qu'au strict nécessaire"
+  - "Déclaration d'intention : chaque action est journalisée avant exécution"
+  - "Isolation : les serveurs ne communiquent pas directement entre eux"
+  - "Traçabilité : toutes les actions sont auditables via le log JSONL"
+  - "Approbation manuelle : chaque serveur doit être approuvé explicitement"
