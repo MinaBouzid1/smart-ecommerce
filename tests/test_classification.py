@@ -5,7 +5,7 @@ from ml.classification import train_and_evaluate
 
 
 def test_cross_validation():
-    """Test avec données synthétiques en mémoire."""
+    """Test avec données synthétiques — compatible avec tout type de retour."""
     np.random.seed(42)
     n = 200
 
@@ -21,19 +21,24 @@ def test_cross_validation():
 
     result = train_and_evaluate(df)
 
-    # train_and_evaluate retourne (metrics_dict, df_annoté)
+    # ── Gère n'importe quel type de retour ──
     if isinstance(result, tuple):
-        metrics, df_out = result
+        metrics = result[0]          # premier élément = dict métriques
+        df_out = result[1] if len(result) > 1 else None
+    elif isinstance(result, dict):
+        metrics = result
+        df_out = None
     else:
         metrics = result
         df_out = None
 
-    assert isinstance(metrics, dict)
+    # ── Assertions sur les métriques ──
+    assert isinstance(metrics, dict), f"Attendu dict, reçu {type(metrics)}"
     assert "random_forest" in metrics or "xgboost" in metrics
-    assert metrics["random_forest"]["accuracy"] >= 0
-    assert metrics["xgboost"]["accuracy"] >= 0
     assert 0 <= metrics["xgboost"]["accuracy"] <= 1
+    assert 0 <= metrics["random_forest"]["accuracy"] <= 1
 
+    # ── Si un DataFrame est retourné ──
     if df_out is not None:
         assert isinstance(df_out, pd.DataFrame)
         assert len(df_out) == n
