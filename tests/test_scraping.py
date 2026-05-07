@@ -179,13 +179,29 @@ def test_run_scraping_pipeline(mock_save_sqlite, mock_save_csv, mock_normalize, 
 # ══════════════════════════════════════════════════════════
 
 def test_normalize_products():
-    raw = [  # ← CORRIGÉ : categorie non-None
-        {"nom": "Product A", "prix": "10.5", "categorie": "shoes"},
-        {"nom": "Product B", "prix": 20, "categorie": "electronics"},
+    raw = [
+        {
+            "nom": "Product A",
+            "prix": "10.5",
+            "categorie": "shoes",
+            "source": "shopify",
+            "product_id": "001",
+            "shop_url": "test.com",
+        },
+        {
+            "nom": "Product B",
+            "prix": 20,
+            "categorie": "electronics",
+            "source": "shopify",
+            "product_id": "002",
+            "shop_url": "test.com",
+        },
     ]
     df = normalize_products(raw)
     assert isinstance(df, pd.DataFrame)
     assert len(df) == 2
+    assert df["prix"].iloc[0] == 10.5
+    assert df["categorie"].iloc[0] == "shoes"
 
 
 def test_save_to_csv(tmp_path):
