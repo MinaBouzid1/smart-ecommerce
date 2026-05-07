@@ -37,9 +37,11 @@ def sample_df():
 
 
 @pytest.fixture
-def sample_df_ml(sample_df):
+def sample_df_ml(sample_df, tmp_path):   # ← CORRIGÉ : ajout de tmp_path
     """DataFrame prétraité prêt pour ML."""
-    _, df_ml = load_and_prepare(sample_df)
+    csv_path = tmp_path / "test_products.csv"
+    sample_df.to_csv(csv_path, index=False)
+    _, df_ml = load_and_prepare(str(csv_path))
     return df_ml
 
 
